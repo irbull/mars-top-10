@@ -8,7 +8,7 @@ Since 2007 I’ve been counting down the 10 most New and Noteworthy features of 
 --------------
 While 10 years is a long time, some Eclipse feature requests last longer than that. In fact, since before I was a committer, since before I went to my first EclipseCon, and since before YouTube had its first video, the Eclipse community has been requesting a proper Mac Application for Eclipse.
 
-This year Eclipse finally delivered, shipping the MacOS version as a proper Mac application. This means that Eclipse can be unzipped and dragged directly in your Application folder. With this change, installing Eclipse becomes much easier on Mac, and features like “open with” now work as expected.
+This year the Eclipse team finally delivered, shipping the MacOS version as a proper Mac application. This means that Eclipse can be unzipped and dragged directly in your Application folder. With this change, installing Eclipse becomes much easier on Mac, and features like “open with” now work as expected.
 
 ![Mac Application](images/mac_app.png)
 
@@ -16,7 +16,7 @@ This year Eclipse finally delivered, shipping the MacOS version as a proper Mac 
 
 9. Platform Improvements
 ------------------------
-The Eclipse platform is the core of all Eclipse based applications and plugins. Improvements to the platform benefit us all. There are a number of improvements to the core platform including an improved Dark Theme, crisper icons and proper transparency support in SWT.
+The Eclipse platform is the core of all Eclipse based applications and plugins. Improvements to the platform benefit us all. There are a number of improvements to the core platform this year, including an improved Dark Theme, crisper icons and proper transparency support in SWT.
 
 ![Transparent Control Background](images/transparent_control_background.png)
 
@@ -52,7 +52,7 @@ This year, the Eclipse team has released the long awaited tooling for e4 as part
 
 5. JDT Improvements
 -------------------
-Eclipse Luna (2014) shipped with Java 8 support and this year the team expanded on that support. There are quick fixes for creating method references from lambda expressions; Quick-fixes for inferring lambda parameter; several new templates have been added for things like try / finally and lock acquisition; and much improved static flow analysis.
+Eclipse Luna (2014) shipped with Java 8 support and this year the team expanded on that support. There are quick fixes for creating method references from lambda expressions; quick-fixes for inferring lambda parameter; several new templates have been added for things like try / finally and lock acquisition; and much improved static flow analysis.
 
 ![JDT Quick Fix](images/jdt-quick-fix.png)
 
@@ -62,7 +62,7 @@ Eclipse Luna (2014) shipped with Java 8 support and this year the team expanded 
 ---------------
 Throughout my day I work on several different projects. I work with Tomcat servers, CouchDB, C/C++ builds, node.js and many other technologies. Docker has been a life-saver when it comes to managing all these stacks, and I’m excited to see Docker tools integrated directly within Eclipse.
 
-There is a new Docker perspective that you can use to connect to a Docker daemon.  There are views to manage your images and containers and even an log inspector.
+There is a new Docker perspective that you can use to connect to a Docker daemon.  There are views to manage your images and containers and even a log inspector.
 
 ![Docker View](images/docker.png)
 
@@ -82,16 +82,14 @@ With Eclipse Mars, there is now support for Git Flow directly from Eclipse.
 ----------------------------
 Instead of simply logging errors to the console, Eclipse can now report errors directly to the Eclipse committers; putting the information in the hands of those who can use it.
 
-When the first error is encountered, Eclipse will notify you of the error and ask if you would like to opt-in.
-
 When errors are detected, you will be prompted if you would like to send the details to eclipse.org. Committers will be able to create bug reports from the data, see similar incidents and help triage issues as they come in. Finally, if an issue has already been fixed, Eclipse will notify you and inform you of the version that contains the fix.
 
 ![Error Reporting](images/error-reporting.png)
 
 [Read More...](http://eclipsesource.com/blogs/2015/06/23/error-reporting-top-eclipse-mars-feature-2/)
 
-1. Oomph Installer
-------------------
+1. The Eclipse Installer (by Oomph)
+-----------------------------------
 This year Eclipse offers a completely new way to download and work with the IDE. Instead of downloading each package individually, the Eclipse installer by Oomph allows you to choose the installation you wish, and it will provision it for you.
 
 You can choose _bundle pool_, to share Eclipse plugins between installations. This means that if you install another package, all the common bits will be shared. Finally, once Eclipse is started, you can walk through the Eclipse Welcome Questionnaire to set common Eclipse preferences to your liking.
