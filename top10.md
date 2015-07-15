@@ -1,6 +1,6 @@
 Top 10 Eclipse Mars Features
 ============================
-[Eclipse Mars](http://www.eclipse.org/mars/) here! 10 years ago I became an Eclipse Committer and I've had the privilege of working with some of the best Software Developers in our industry. For 10 years I've watched the Eclipse team ship high quality software on-time and on-budget. Eclipse Mars contains 79 different Eclipse projects, 65 million lines of code, developed by 380 committers and 352 contributors.
+[Eclipse Mars](http://www.eclipse.org/mars/) is here! 10 years ago I became an Eclipse Committer and I've had the privilege of working with some of the best Software Developers in our industry. For 10 years I've watched the Eclipse team ship high quality software on-time and on-budget. Eclipse Mars contains 79 different Eclipse projects, 65 million lines of code, developed by 380 committers and 352 contributors.
 
 Since 2007 I’ve been counting down the 10 most New and Noteworthy features of each release. These articles highlight the features I’m most excited about. Here is my list for 2015.
 
@@ -34,6 +34,11 @@ With Eclipse Mars, debugging this just got a lot easier as Eclipse now ships wit
 
 7. C/C++ Launching
 ------------------
+The developers behind the C/C++ tooling in Eclipse (CDT) have brought a number of new enhancements this year. To make it easier to launch your applications and choose your target device, a new launch bar was added. As well as the launch bar, the CDT also added support for direct Docker deployment. This means that you can deploy your C/C++ applications from Eclipse directly to a docker container.
+
+![Launch Bar](images/launch-bar.png)
+
+[Read More...](http://eclipsesource.com/blogs/2015/06/16/cc-launching-top-eclipse-mars-feature-7/)
 
 6. e4 Tools
 -----------
@@ -47,9 +52,21 @@ This year, the Eclipse team has released the long awaited tooling for e4 as part
 
 5. JDT Improvements
 -------------------
+Eclipse Luna (2014) shipped with Java 8 support and this year the team expanded on that support. There are quick fixes for creating method references from lambda expressions; Quick-fixes for inferring lambda parameter; several new templates have been added for things like try / finally and lock acquisition; and much improved static flow analysis.
+
+![JDT Quick Fix](images/jdt-quick-fix.png)
+
+[Read More...](http://eclipsesource.com/blogs/2015/06/18/jdt-improvements-top-eclipse-mars-feature-5/)
 
 4. Docker Tools
 ---------------
+Throughout my day I work on several different projects. I work with Tomcat servers, CouchDB, C/C++ builds, node.js and many other technologies. Docker has been a life-saver when it comes to managing all these stacks, and I’m excited to see Docker tools integrated directly within Eclipse.
+
+There is a new Docker perspective that you can use to connect to a Docker daemon.  There are views to manage your images and containers and even an log inspector.
+
+![Docker View](images/docker.png)
+
+[Read More...](http://eclipsesource.com/blogs/2015/06/19/docker-tools-top-eclipse-mars-feature-4/)
 
 3. Git Flow
 -----------
